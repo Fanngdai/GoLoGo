@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    This XML file allows us to easily customize the look and language used
+    in our program's user interface. Note that this properties file is only
+    for the standard controls for an app from the SimpleAppFramework, so
+    it would not include things initialized for the workspace, which is
+    customizable.
+-->
+<properties>
+    <property_list>
+        <property name="APP_TITLE"	    value="goLogoLo"></property>
+        <property name="APP_LOGO"	    value="goLogoLoLogo.png"></property>
+        <property name="APP_PATH_CSS"	    value="css/"></property>
+        <property name="APP_CSS"	    value="gol_style.css"></property>
+
+        <!-- PREFERRED GEOMETRY -->
+        <property name="PREF_WIDTH"         value="800"></property>
+        <property name="PREF_HEIGHT"        value="600"></property>
+        <property name="START_MAXIMIZED"    value="true"></property>
+        
+        <!-- PROGRAM ICON FILES -->
+        <property name="NEW_ICON"	    value="New.png"></property>
+        <property name="LOAD_ICON"	    value="Load.png"></property>
+        <property name="SAVE_ICON"	    value="Save.png"></property>
+        <property name="EXIT_ICON"          value="Exit.png"></property>
+        
+        <property name="CUTTOOLBAR_ICON"	    value="CutToolbar.png"></property>
+        <property name="COPYTOOLBAR_ICON"	    value="CopyToolbar.png"></property>
+        <property name="PASTETOOLBAR_ICON"          value="PasteToolbar.png"></property>
+        <property name="UNDO_ICON"	    value="Undo.png"></property>
+        <property name="REDO_ICON"	    value="Redo.png"></property>
+        
+        <property name="LANGUAGE_ICON"	    value="Language.png"></property>
+        <property name="ABOUT_ICON"          value="About.png"></property>
+        
+        <!-- TOOLTIPS FOR BUTTONS -->
+        <property name="NEW_TOOLTIP"		value="创建一个新徽标"></property>
+        <property name="LOAD_TOOLTIP"		value="加载现有徽标"></property>
+        <property name="SAVE_TOOLTIP"		value="保存此徽标"></property>
+        <property name="EXIT_TOOLTIP"		value="退出应用程序"></property>
+        
+        <property name="CUTTOOLBAR_TOOLTIP"		value="剪切矩形，椭圆，图像或文字"></property>
+        <property name="COPYTOOLBAR_TOOLTIP"		value="复制矩形，椭圆，图像或文本"></property>
+        <property name="PASTETOOLBAR_TOOLTIP"		value="糊"></property>
+        <property name="UNDO_TOOLTIP"		value="解开"></property>
+        <property name="REDO_TOOLTIP"		value="重做"></property>
+        
+        <property name="LANGUAGE_TOOLTIP"		value="改变语言"></property>
+        <property name="ABOUT_TOOLTIP"		value="信息"></property>
+        
+        <!-- ERROR MESSAGES -->
+        <property name="CLOSE_BUTTON_TEXT"              value="关"></property>
+        <property name="NEW_ERROR_MESSAGE"              value="创建新工作时出错。"></property>
+        <property name="NEW_ERROR_TITLE"                value="新工作错误"></property>
+        <property name="LOAD_ERROR_MESSAGE"             value="加载工作出错。"></property>
+        <property name="LOAD_ERROR_TITLE"               value="加载工作错误"></property>
+        <property name="SAVE_ERROR_MESSAGE"             value="保存工作时发生错误。"></property>
+        <property name="SAVE_ERROR_TITLE"               value="保存工作错误"></property>
+        <property name="PROPERTIES_LOAD_ERROR_MESSAGE"	value="加载属性文件时出错。"></property>
+        <property name="PROPERTIES_LOAD_ERROR_TITLE"	value="属性文件加载错误"></property>
+	
+        <!-- VERIFICATION MESSAGES -->
+	
+        <property name="NEW_COMPLETED_MESSAGE"		value="新工作准备编辑"></property>
+        <property name="NEW_COMPLETED_TITLE"		value="创作新作"></property>
+        <property name="LOAD_COMPLETED_MESSAGE"		value="文件加载完成并准备好编辑"></property>
+        <property name="LOAD_COMPLETED_TITLE"		value="载入完成"></property>
+        <property name="SAVE_COMPLETED_MESSAGE"		value="文件保存完成"></property>
+        <property name="SAVE_COMPLETED_TITLE"		value="保存完成"></property>
+        <property name="LANGUAGE_CHANGED_MESSAGE"	value="语言已更改完成"></property>
+        <property name="LANGUAGE_CHANGED_TITLE"		value="语言更改"></property>
+        <property name="LANGUAGE_NOT_CHANGED_MESSAGE"	value="语言不变"></property>
+        <property name="LANGUAGE_NOT_CHANGED_TITLE"		value="语言不变"></property>
+        <property name="SAVE_UNSAVED_WORK_MESSAGE"	value="您要先保存未保存的作业吗？"></property>
+        <property name="SAVE_UNSAVED_WORK_TITLE"	value="保存未保存的工作？"></property>
+	
+        <property name="NEW_CREATED_MESSAGE"		value="创建新工作但尚未保存"></property>
+        <property name="WORK_LOADED_MESSAGE"		value="工作已经加载"></property>
+        <property name="WORK_SAVED_MESSAGE"         value="工作已经保存"></property>
+        <property name="SAVE_UNSAVED_WORK_MESSAGE"	value="您要先保存未保存的作业吗？"></property>
+        <property name="SAVE_WORK_TITLE"            value="保存你的工作"></property>
+        <property name="LOAD_WORK_TITLE"            value="选择要加载的工作文件"></property>
+        <property name="WORK_FILE_EXT"              value="pm"></property>
+        <property name="WORK_FILE_EXT_DESC"         value="goLogoLo 档"></property>
+
+        <!-- PROGRAM ICON FILES -->
+        <property name="SELECTION_TOOL_ICON"        value="SelectionTool.png"></property>
+        <property name="REMOVE_ICON"                value="Remove.png"></property>
+        <property name="RECTANGLE_ICON"             value="Rect.png"></property>
+        <property name="ELLIPSE_ICON"               value="Ellipse.png"></property>
+        <property name="MOVE_TO_FRONT_ICON"         value="MoveToFront.png"></property>
+        <property name="MOVE_TO_BACK_ICON"          value="MoveToBack.png"></property>
+        <property name="SNAPSHOT_ICON"              value="Snapshot.png"></property>
+        
+        <property name="IMAGE_ICON"     value="Image.png"></property>
+        <property name="TEXT_ICON"		value="Text.png"></property>
+        <property name="BOLD_ICON"     value="Bold.png"></property>
+        <property name="ITALICS_ICON"		value="Italics.png"></property>
+        
+        <!-- TOOLTIPS FOR BUTTONS -->
+        <property name="SELECTION_TOOL_TOOLTIP"	    value="使用形状选择工具"></property>
+        <property name="REMOVE_ELEMENT_TOOLTIP"	    value="删除元素"></property>
+        <property name="RECTANGLE_TOOLTIP"          value="绘制矩形"></property>
+        <property name="ELLIPSE_TOOLTIP"            value="绘制椭圆"></property>
+        <property name="MOVE_TO_BACK_TOOLTIP"	    value="将形状移动到背面"></property>
+        <property name="MOVE_TO_FRONT_TOOLTIP"	    value="将形状移动到正面"></property>
+        <property name="BACKGROUND_TOOLTIP"         value="选择背景颜色"></property>
+        <property name="FILL_TOOLTIP"               value="选择填充颜色"></property>
+        <property name="OUTLINE_TOOLTIP"            value="选择轮廓颜色"></property>
+        <property name="SNAPSHOT_TOOLTIP"           value="拍快照"></property>
+        
+        <property name="IMAGE_TOOLTIP"	    value="添加图片"></property>
+        <property name="TEXT_TOOLTIP"	    value="添加文字"></property>
+        <property name="BOLD_TOOLTIP"	    value="加粗字体"></property>
+        <property name="ITALICS_TOOLTIP"	    value="斜体文字"></property>
+	
+	<!-- MESSAGES -->
+        <property name="REMOVE_ELEMENT_MESSAGE"	    value="你确定要删除那个元素吗？"></property>
+		
+	<!-- ERROR MESSAGES AND TITLES FOR THEIR DIALOGS -->
+        <property name="ATTRIBUTE_UPDATE_ERROR_MESSAGE"	    value="警告：更新元素属性时出错。"></property>
+        <property name="ATTRIBUTE_UPDATE_ERROR_TITLE"	    value="属性更新错误"></property>
+        <property name="UPDATE_ERROR_MESSAGE"		    value="更新UI时出错"></property>
+        <property name="UPDATE_ERROR_TITLE"		    value="UI更新错误"></property>
+                
+    </property_list>
+    <property_options_list>
+    </property_options_list>
+</properties>
